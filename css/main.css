@@ -1,0 +1,54 @@
+
+:root{
+    --main-color:#ee6e73;
+}
+body{
+    background: #f6f6f6 !important;
+}
+
+nav.brand-logo{
+    padding-right: 30px !important;
+}
+nav .nav-wrapper{
+    padding-left: 20px !important;
+   height: 250px !important;
+}
+
+.sidenav{
+   
+    padding-right: 30px !important;
+    
+}
+.article2{
+    margin-top: 50px !important;
+}
+.article input:focus{
+    border-bottom: 1px solid indigo !important;
+}
+
+/* container*/
+@media only screen and (min-width:993px) {
+    .container{
+        width: 90%;
+    
+    }
+}
+/* Article*/
+.article{
+    background-color: #fff;
+    padding: 30px;
+    margin-top:30px;
+    text-align: right;
+    align-items: right;
+}
+.article a{
+    color: #ee6e73;
+}
+.article button{
+    padding: 10px;
+color: #fff;
+background-color: #ee6e73;;
+font-size: 16px;
+border:0;
+
+}
